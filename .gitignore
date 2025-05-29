@@ -1,4 +1,5 @@
 .env
 .cpcache
+.lsp
 .clj-kondo/.cache
 data
