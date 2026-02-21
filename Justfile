@@ -1,3 +1,6 @@
+set dotenv-load
+
+
 help:
     just --list
 
@@ -12,3 +15,6 @@ lint:
 
 test:
     clojure -X:test
+
+ssh:
+    ssh root@$IPV4
